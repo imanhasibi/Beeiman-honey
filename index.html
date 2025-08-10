@@ -4,124 +4,181 @@
 <meta charset="utf-8">
 <title>Beeiman Honey | Mohanna Garden</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="عسل طبیعی Beeiman - از باغ گیلاس روستای امامه، تولید مهنا گاردن">
+<meta name="description" content="عسل طبیعی Beeiman از باغ گیلاس امامه؛ نتایج آزمایش تأیید شده.">
 <style>
-:root {
-  --bg:#fff; --ink:#222; --muted:#666; --brand:#f1b500; --card:#f9f9f9; --line:#e5e5e5;
-  --radius:14px; --max:1000px;
-}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:Tahoma,Segoe UI,Arial,sans-serif;line-height:1.8}
-.wrap{max-width:var(--max);margin:auto;padding:20px}
-header{display:flex;align-items:center;gap:16px;padding-bottom:20px;border-bottom:1px solid var(--line)}
-.logo{width:64px;height:64px;object-fit:contain}
-h1{margin:0;font-size:1.5rem}
-h2{margin:16px 0 10px;font-size:1.2rem}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin:16px 0}
+:root{--bg:#fff;--ink:#222;--muted:#666;--line:#ece7de;--card:#faf8f4;--brand:#f0b90b;--radius:14px;--max:1060px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Tahoma,Segoe UI,Arial,sans-serif;line-height:1.9}
+.wrap{max-width:var(--max);margin:auto;padding:18px}
+header{display:flex;align-items:center;gap:14px;padding:10px 0 14px;border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:1.6rem}
+.muted{color:var(--muted)}
+.lang{margin-inline-start:auto;display:flex;gap:6px}
+.lang button{border:1px solid var(--line);background:#fff;border-radius:10px;padding:6px 10px;cursor:pointer}
+.section{display:grid;grid-template-columns:1.05fr .95fr;gap:16px;align-items:center;margin:14px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px}
+img.block{width:100%;border:1px solid var(--line);border-radius:var(--radius);background:#fff;display:block}
+h2{margin:0 0 10px;font-size:1.2rem}
+ul{margin:0 0 0 1rem;padding:0}
 table{width:100%;border-collapse:collapse}
 th,td{padding:8px;border-bottom:1px solid var(--line);text-align:start}
-th{background:#f2f2f2}
-.badge{display:inline-block;padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:.9rem}
-footer{text-align:center;color:var(--muted);margin-top:30px}
-.qr{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-img.product{width:100%;border-radius:var(--radius);border:1px solid var(--line)}
-@media(max-width:700px){header{flex-direction:column;align-items:flex-start}}
+th{background:#f6f1ea}
+footer{text-align:center;color:var(--muted);margin:24px 0 8px}
+.fa[hidden], .en[hidden]{display:none!important}
+@media (max-width:900px){.section{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <div class="wrap">
 
 <header>
-  <img class="logo" src="assets/logo.png" alt="Beeiman Honey Logo">
   <div>
     <h1>Beeiman Honey — عسل طبیعی مهنا گاردن</h1>
-    <div class="badge">وزن خالص: ۸۵۰ گرم</div>
+    <div class="muted fa">از باغ گیلاس روستای امامه، دامنه مهرچال</div>
+    <div class="muted en" hidden>From the cherry orchard in Emameh village, on the foothills of Mehrchal</div>
+  </div>
+  <div class="lang">
+    <button id="btn-fa">FA</button>
+    <button id="btn-en">EN</button>
   </div>
 </header>
 
-<section class="card">
-  <img class="product" src="assets/product.jpg" alt="Beeiman honey jar">
-</section>
-<section class="card">
-  <h2>روش زنبورداری و نگهداری</h2>
-  <p>در زنبورستان Beeiman، هدف اصلی ما حفظ سلامت کلنی‌ها به روش‌های طبیعی و کم‌خطر است. برای همین، برنامه‌ی مدیریت ما شامل موارد زیر است:</p>
-  <ol>
-    <li><strong>کنترل بیماری‌ها بدون داروهای شیمیایی:</strong> برای پیشگیری و کنترل بیماری‌ها، از داروهای شیمیایی رایج استفاده نمی‌کنیم. در فصل بهار، برای کنترل بیماری نوزما، از <strong>سرکه سیب</strong> و <strong>پروبیوتیک‌های طبیعی</strong> بهره می‌بریم که هم ایمن‌اند و هم به تقویت سیستم ایمنی زنبورها کمک می‌کنند.</li>
-    <li><strong>کنترل کنه واروآ با روش‌های ترکیبی:</strong>
-      <ul>
-        <li><em>روش‌های بیولوژیک و شیمیایی کم‌خطر:</em> استفاده از <strong>اسید اگزالیک</strong> و <strong>گری‌سیلین</strong> در مقادیر کنترل‌شده، با کمترین اثر منفی بر عسل و زنبور.</li>
-        <li><em>روش مکانیکی طبیعی:</em> حذف سلول‌های نر (محل اصلی تکثیر کنه) برای کاهش جمعیت کنه.</li>
-      </ul>
-    </li>
-    <li><strong>تغذیه تکمیلی و جمعیت‌سازی:</strong> در زمان‌هایی که منابع طبیعی گرده محدود می‌شود، از <strong>کیک گرده</strong> و <strong>جلبک اسپیرولینا</strong> به عنوان منبع پروتئین استفاده می‌کنیم تا تخم‌گذاری ملکه و رشد جمعیت کارگرها تقویت شود.</li>
-    <li><strong>تمرکز بر روش‌های پایدار و احترام به طبیعت:</strong> همه‌ی روش‌ها با هدف تولید عسلی سالم، بدون باقی‌مانده مواد شیمیایی، و سازگار با محیط‌زیست انجام می‌شوند.</li>
-  </ol>
-</section>
-
-
-<section class="card">
-  <h2>متن لیبل (فارسی)</h2>
-  <p><strong>عسل طبیعی Beeiman</strong> تولید شده توسط مجموعه مهنا گاردن از زنبورستان‌های منتخب، بدون هیچ‌گونه افزودنی یا حرارت‌دهی. این محصول خالص، دارای نتایج آزمایش تأییدشده و مطابق با استاندارد ملی ایران شماره ۹۲ می‌باشد.</p>
-  <ul>
-    <li>ترکیبات: ۱۰۰٪ عسل طبیعی خام</li>
-    <li>وزن خالص: ۸۵۰ گرم</li>
-    <li>مبدأ تولید: ایران</li>
-    <li>شرایط نگهداری: در جای خشک و خنک و دور از نور مستقیم خورشید نگهداری شود</li>
-    <li>کریستالیزاسیون (شکرک زدن) طبیعی است و نشان‌دهنده خام بودن عسل می‌باشد</li>
-  </ul>
-  <p><strong>⚠ هشدار:</strong> به نوزادان زیر ۱۲ ماه عسل ندهید</p>
-</section>
-
-<section class="card">
-  <h2>Label (English)</h2>
-  <p><strong>Beeiman Natural Honey</strong>, produced by Mohanna Garden from selected apiaries, with no additives or heating. This pure product is lab-tested and conforms to Iranian National Standard No. 92.</p>
-  <ul>
-    <li>Ingredients: 100% raw natural honey</li>
-    <li>Net weight: 850 g</li>
-    <li>Origin: Iran</li>
-    <li>Storage: Keep in a cool, dry place away from direct sunlight</li>
-    <li>Crystallisation: Natural crystallisation indicates raw honey</li>
-  </ul>
-  <p><strong>⚠ Caution:</strong> Do not feed honey to infants under 12 months</p>
-</section>
-
-<section class="card">
-  <h2>نتایج آزمایش عسل</h2>
-  <table>
-    <thead>
-      <tr><th>پارامتر</th><th>نتیجه</th><th>حد مجاز</th><th>توضیح</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>رطوبت</td><td>17.5%</td><td>≤ 20%</td><td>رطوبت کمتر به ماندگاری بیشتر کمک می‌کند</td></tr>
-      <tr><td>HMF</td><td>8 mg/kg</td><td>≤ 40 mg/kg</td><td>شاخص تازه‌بودن عسل، مقدار پایین نشانه کیفیت</td></tr>
-      <tr><td>دی‌آملاز</td><td>14 DN</td><td>≥ 8 DN</td><td>آنزیم طبیعی عسل؛ بالا بودن نشان‌دهنده خام بودن</td></tr>
-      <tr><td>ساکارز</td><td>2.1%</td><td>≤ 5%</td><td>مقدار کم نشانه طبیعی بودن و عدم تغذیه مصنوعی</td></tr>
-      <tr><td>اسیدیته</td><td>24 meq/kg</td><td>≤ 50 meq/kg</td><td>در محدوده مجاز، مرتبط با طعم و ماندگاری</td></tr>
-      <tr><td>هدایت الکتریکی</td><td>0.42 mS/cm</td><td>≤ 0.8 mS/cm</td><td>نشان‌دهنده منبع گیاهی عسل</td></tr>
-      <tr><td>باقیمانده آنتی‌بیوتیک</td><td>منفی</td><td>باید منفی باشد</td><td>عدم استفاده از داروهای غیرمجاز</td></tr>
-      <tr><td>باقیمانده سموم</td><td>منفی</td><td>باید منفی باشد</td><td>عدم استفاده از سموم شیمیایی</td></tr>
-    </tbody>
-  </table>
-  <p><em>تمامی نتایج با استاندارد ملی ایران شماره ۹۲ مطابقت دارد</em></p>
-</section>
-
-<section class="card">
-  <h2>داستان ما</h2>
-  <p>زنبورستان ما در دل یک باغ گیلاس در روستای زیبای امامه، در دامنه کوه مهرچال قرار دارد. ده سال پیش، این سفر شیرین را با تنها سه کندو آغاز کردیم. با عشق، صبر و احترام به طبیعت، امروز تعداد کندوهایمان به هفت رسیده و هر سال، شهد خالص و ناب این منطقه را برای شما به ارمغان می‌آوریم.</p>
-</section>
-
-<section class="card">
-  <h2>اطلاعات بیشتر</h2>
-  <div class="qr">
-    <img src="assets/qr-bee.png" alt="QR to bee.mohannagarden.ir" width="150" height="150">
-    <span>با اسکن این کد، به صفحه رسمی Beeiman Honey بروید</span>
+<!-- HERO -->
+<section class="section">
+  <img class="block" src="assets/images/hero-product.jpg" alt="Beeiman honey product">
+  <div class="card">
+    <h2 class="fa">عسل طبیعی، بی‌افزودنی و بی‌حرارت 🐝</h2>
+    <h2 class="en" hidden>Pure, unheated, additive‑free 🐝</h2>
+    <p class="fa">عسل Beeiman بدون افزودنی و حرارت‌دهی تولید می‌شود. نتایج آزمایش آن با استاندارد ملی ایران شماره ۹۲ مطابقت دارد. وزن خالص: ۸۵۰ گرم.</p>
+    <p class="en" hidden>Beeiman honey is produced without additives or heating. Lab results conform to the Iranian National Standard No. 92. Net weight: 850 g.</p>
+    <div class="muted fa">کریستالیزاسیون طبیعی است و نشان‌دهنده خام بودن عسل است.</div>
+    <div class="muted en" hidden>Crystallisation is natural and indicates raw honey.</div>
   </div>
 </section>
 
-<footer>
-  © <span id="y"></span> Mohanna Garden — Beeiman Honey
-</footer>
+<!-- LABEL TEXT with image -->
+<section class="section">
+  <div class="card">
+    <div class="fa">
+      <p><strong>عسل طبیعی Beeiman</strong> تولید شده توسط مجموعه مهنا گاردن از زنبورستان‌های منتخب، بدون هیچ‌گونه افزودنی یا حرارت‌دهی. این محصول خالص، دارای نتایج آزمایش تأییدشده و مطابق با استاندارد ملی ایران شماره ۹۲ می‌باشد.</p>
+      <ul>
+        <li>ترکیبات: ۱۰۰٪ عسل طبیعی خام</li>
+        <li>وزن خالص: ۸۵۰ گرم</li>
+        <li>مبدأ تولید: ایران</li>
+        <li>شرایط نگهداری: در جای خشک و خنک و دور از نور مستقیم خورشید نگهداری شود</li>
+        <li>⚠️ به نوزادان زیر ۱۲ ماه عسل ندهید</li>
+      </ul>
+    </div>
+    <div class="en" hidden>
+      <p><strong>Beeiman Natural Honey</strong>, produced by Mohanna Garden from selected apiaries, with no additives or heating. This pure product is lab‑tested and conforms to the Iranian National Standard No. 92.</p>
+      <ul>
+        <li>Ingredients: 100% raw natural honey</li>
+        <li>Net weight: 850 g</li>
+        <li>Origin: Iran</li>
+        <li>Storage: Store in a cool, dry place away from direct sunlight</li>
+        <li>⚠️ Do not feed honey to infants under 12 months</li>
+      </ul>
+    </div>
+  </div>
+  <img class="block" src="assets/images/label-shot.jpg" alt="Beeiman label / packaging">
+</section>
 
+<!-- LAB RESULTS with image -->
+<section class="section">
+  <img class="block" src="assets/images/lab-report.jpg" alt="Lab report">
+  <div class="card">
+    <h2 class="fa">نتایج آزمایش عسل</h2>
+    <h2 class="en" hidden>Honey lab results</h2>
+    <table class="fa">
+      <thead><tr><th>پارامتر</th><th>نتیجه</th><th>توضیح کوتاه</th></tr></thead>
+      <tbody>
+        <tr><td>HMF</td><td>پایین‌تر از حد مجاز</td><td>شاخص تازه‌بودن؛ هرچه کمتر بهتر</td></tr>
+        <tr><td>دی‌آستاز</td><td>بالاتر از حداقل استاندارد</td><td>نشان خام‌بودن و کیفیت آنزیمی</td></tr>
+        <tr><td>ساکارز</td><td>کمتر از حد مجاز</td><td>نشانه اصالت و عدم تغذیه مصنوعی</td></tr>
+        <tr><td>رطوبت</td><td>در محدوده استاندارد</td><td>ایمنی در برابر تخمیر</td></tr>
+        <tr><td>اسیدیته و هدایت</td><td>طبیعی</td><td>هماهنگ با منبع گیاهی شهد</td></tr>
+        <tr><td>آنتی‌بیوتیک و سموم</td><td>منفی</td><td>فاقد باقی‌مانده شیمیایی</td></tr>
+      </tbody>
+    </table>
+    <table class="en" hidden>
+      <thead><tr><th>Parameter</th><th>Result</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>HMF</td><td>Below threshold</td><td>Freshness indicator; lower is better</td></tr>
+        <tr><td>Diastase</td><td>Above minimum</td><td>Enzymatic quality; raw honey</td></tr>
+        <tr><td>Sucrose</td><td>Under limit</td><td>Authenticity; no artificial feeding</td></tr>
+        <tr><td>Moisture</td><td>Within standard</td><td>Safe against fermentation</td></tr>
+        <tr><td>Acidity & Conductivity</td><td>Normal</td><td>Consistent with floral source</td></tr>
+        <tr><td>Antibiotics & Pesticides</td><td>Negative</td><td>No chemical residues</td></tr>
+      </tbody>
+    </table>
+    <p class="muted fa">تمامی نتایج مطابق <strong>استاندارد ملی ایران شماره ۹۲</strong> است.</p>
+    <p class="muted en" hidden>All results conform to <strong>Iranian National Standard No. 92</strong>.</p>
+  </div>
+</section>
+
+<!-- STORY with image -->
+<section class="section">
+  <div class="card">
+    <h2 class="fa">داستان ما</h2>
+    <h2 class="en" hidden>Our story</h2>
+    <p class="fa">زنبورستان ما در قلب یک باغ گیلاس در روستای امامه، دامنه مهرچال قرار دارد. ده سال پیش با ۳ کندو شروع کردیم و امروز با ۷ کندو، هر ساله شهد خالص این منطقه را با عشق و احترام به طبیعت عرضه می‌کنیم.</p>
+    <p class="en" hidden>Our apiary lives in a cherry orchard in Emameh village on the foothills of Mehrchal. We started ten years ago with 3 hives and today care for 7 hives, harvesting pure local nectar with respect for nature.</p>
+  </div>
+  <img class="block" src="assets/images/orchard.jpg" alt="Emameh cherry orchard">
+</section>
+
+<!-- BEEKEEPING with image -->
+<section class="section">
+  <img class="block" src="assets/images/beekeeping.jpg" alt="Beekeeping approach">
+  <div class="card">
+    <h2 class="fa">روش زنبورداری و نگهداری</h2>
+    <h2 class="en" hidden>Beekeeping approach</h2>
+    <div class="fa">
+      <ol>
+        <li><strong>بدون داروهای شیمیایی:</strong> در بهار برای نوزما از سرکه سیب و پروبیوتیک طبیعی استفاده می‌کنیم.</li>
+        <li><strong>کنترل کنه واروآ ترکیبی:</strong> اسید اگزالیک و گری‌سیلین + روش مکانیکی حذف سلول‌های نر.</li>
+        <li><strong>تغذیه تکمیلی:</strong> کیک گرده و جلبک اسپیرولینا برای جمعیت‌سازی.</li>
+        <li><strong>پایداری:</strong> سلامت کلنی و عسلِ بدون باقی‌مانده شیمیایی.</li>
+      </ol>
+    </div>
+    <div class="en" hidden>
+      <ol>
+        <li><strong>No routine chemicals:</strong> In spring we manage Nosema with apple cider vinegar and natural probiotics.</li>
+        <li><strong>Integrated Varroa control:</strong> oxalic acid and Griseline plus mechanical drone brood removal.</li>
+        <li><strong>Supplemental feeding:</strong> pollen patties and spirulina for population build‑up.</li>
+        <li><strong>Sustainability:</strong> healthy colonies and residue‑free honey.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- QR -->
+<section class="section">
+  <div class="card">
+    <h2>QR</h2>
+    <p class="fa">با اسکن کد، وارد صفحه رسمی Beeiman Honey شوید.</p>
+    <p class="en" hidden>Scan to open the official Beeiman Honey page.</p>
+  </div>
+  <img class="block" src="assets/images/qr.png" alt="QR code">
+</section>
+
+<footer>© <span id="year"></span> Mohanna Garden · Beeiman Honey</footer>
 </div>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+
+<script>
+  // Year
+  document.getElementById('year').textContent = new Date().getFullYear();
+  // Language toggle
+  const setLang = (lang)=>{
+    const isFa = lang==='fa';
+    document.querySelectorAll('.fa').forEach(el=>el.hidden=!isFa);
+    document.querySelectorAll('.en').forEach(el=>el.hidden=isFa);
+    document.documentElement.lang = isFa ? 'fa':'en';
+    document.documentElement.dir = isFa ? 'rtl':'ltr';
+  };
+  document.getElementById('btn-fa').onclick = ()=>setLang('fa');
+  document.getElementById('btn-en').onclick = ()=>setLang('en');
+</script>
+
 </body>
 </html>
